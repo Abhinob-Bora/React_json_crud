@@ -1,6 +1,63 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Center the content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the "Create" button */
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* Style the action buttons */
+.btn-success,
+.btn-danger,
+.btn-primary {
+  margin-right: 5px;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +93,62 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Create.css */
+
+/* Center the content */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form container */
+.w-50 {
+  width: 50%;
+}
+
+/* Style the form elements */
+form {
+  background-color: #333;
+  padding: 20px;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+

@@ -1,0 +1,42 @@
+/* read.css (or any other CSS file) */
+.read-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .read-card {
+    width: 50%;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .read-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .read-card p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .read-back-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .read-back-button:hover {
+    background-color: #0056b3;
+  }
+  
